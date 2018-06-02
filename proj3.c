@@ -46,6 +46,7 @@ void magic2() {
     }
 }
 
+// secret is from file "flag1"
 void magic1() {
     char buf[64];
     int fd = open("./flag1",O_RDONLY);
